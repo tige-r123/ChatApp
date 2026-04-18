@@ -1,8 +1,9 @@
 # Node.js
 node_modules/
 npm-debug.log
-yarn-debug.log
 yarn-error.log
+package-lock.json
+yarn.lock
 
 # Python
 __pycache__/
@@ -16,19 +17,21 @@ venv/
 *.egg-info/
 dist/
 build/
-*.log
 
 # Docker
 *.dockerignore
 Dockerfile
-docker-compose.override.yml
+docker-compose.yml
 
 # Frontend
-build/
 dist/
-*.log
+build/
+.cache/
 *.css.map
 *.js.map
+
+# Logs
+*.log
 
 # IDE and Editor
 .vscode/
@@ -38,22 +41,23 @@ dist/
 *.sublime-workspace
 *.sublime-project
 
-# OS-specific
+# OS-specific files
 .DS_Store
 Thumbs.db
-desktop.ini
-*.bak
-*.tmp
+ehthumbs.db
+Icon?
+Desktop.ini
 
 # Miscellaneous
-*.log
 *.tmp
-*.cache
+*.temp
+*.bak
+*.orig
 *.pid
 *.seed
 *.tgz
 *.zip
-*.tar
+*.tar.gz
 *.gz
 *.rar
 *.7z
@@ -63,7 +67,8 @@ desktop.ini
 *.html
 *.json
 *.txt
-*.yml
 *.md
-*.jsx
-*.js
+*.yml
+*.yaml
+*.lock
+*.map
