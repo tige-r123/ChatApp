@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./backend
+        working-directory: ./Backend
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./frontend
+        working-directory: ./Frontend
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -52,7 +52,7 @@ jobs:
       with:
         node-version: '18'
         cache: npm
-        cache-dependency-path: frontend/package-lock.json
+        cache-dependency-path: Frontend/package-lock.json
     - name: Install dependencies
       run: npm ci
     - name: Build frontend
@@ -65,7 +65,7 @@ jobs:
         azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
         repo_token: ${{ github.token }}
         action: upload
-        app_location: frontend
+        app_location: Frontend
         output_location: dist
     - name: Verify Frontend Deployment
       run: curl -f https://project-frontend.azurestaticapps.net || echo "Frontend endpoint verification failed"
