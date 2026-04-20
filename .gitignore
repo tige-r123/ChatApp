@@ -2,75 +2,84 @@
 node_modules/
 npm-debug.log
 yarn-error.log
+package-lock.json
+yarn.lock
 
 # Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.env
 .venv/
 env/
 venv/
 *.egg-info/
 dist/
 build/
+*.whl
 
 # Docker
 *.dockerignore
 Dockerfile
-docker-compose.override.yml
+docker-compose.yml
 
 # Frontend
-build/
-dist/
+/build/
+.cache/
 *.log
-*.cache
-*.tmp
+*.css.map
+*.js.map
 
-# IDEs and Editors
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE and editor files
 .vscode/
 .idea/
-*.sublime-workspace
 *.sublime-project
+*.sublime-workspace
 *.swp
 *.swo
-*.DS_Store
-Thumbs.db
 
 # OS-specific files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
 
-# Test Results
+# Logs and runtime data
+*.log
 test_results/
-*.result
-*.xml
-*.json
+*.tmp
+*.temp
+*.pid
+*.seed
 
 # Miscellaneous
-*.log
-*.tmp
-*.bak
-*.swp
-*.swo
-*.orig
-*.class
-*.jar
-*.war
+*.json
+*.yml
+*.yaml
+*.md
+*.txt
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.mp3
+*.wav
+*.mp4
+*.avi
+*.mov
+*.wmv
 *.zip
 *.tar
 *.gz
-*.tgz
+*.bz2
 *.7z
 *.rar
-*.mp3
-*.jpg
-*.svg
-*.md
-*.txt
-*.yml
-*.json
-*.jsx
-*.css
-*.html
