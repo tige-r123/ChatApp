@@ -9,63 +9,96 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-*.env
 .venv/
 env/
 venv/
+*.env
 *.egg-info/
-dist/
-build/
-*.log
 
 # Docker
 *.dockerignore
 Dockerfile
-docker-compose.yml
+docker-compose.override.yml
 
 # Frontend
-build/
 dist/
+build/
 *.log
 
-# IDE and Editor
+# IDEs and Editors
 .vscode/
 .idea/
 *.swp
 *.swo
-*.sublime-project
 *.sublime-workspace
+*.sublime-project
 
-# OS-specific
+# OS-specific files
 .DS_Store
 Thumbs.db
 ehthumbs.db
 Icon?
 Desktop.ini
 
-# Miscellaneous
+# Logs and runtime data
+*.log
 *.tmp
 *.temp
-*.bak
-*.orig
-*.log
-*.out
 *.pid
 *.seed
-*.tgz
+
+# Miscellaneous
+*.json
+*.yml
+*.yaml
+*.md
+*.txt
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.svg
+*.mp3
+*.wav
+*.ogg
 *.zip
 *.tar
 *.gz
-*.rar
 *.7z
-*.mp3
-*.jpg
-*.svg
-*.html
-*.css
-*.txt
-*.json
-*.yml
-*.md
-*.jsx
-*.js
+*.rar
+*.bak
+*.orig
+*.class
+*.jar
+*.war
+*.dll
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dSYM/
+*.class
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.whl
+*.dist-info/
+*.manifest
+*.spec
+*.coverage
+.coverage.*
+*.cover
+nosetests.xml
+*.log
+*.pot
+*.po
+*.mo
+*.pdb
+*.idb
+*.scc
+*.sccs
+*.sccs/
+*.sccs/*
