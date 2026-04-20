@@ -19,57 +19,58 @@ build/
 # Docker
 *.dockerignore
 Dockerfile
-docker-compose.yml
+docker-compose.override.yml
 
 # Frontend
 build/
 dist/
-.cache/
 *.log
+*.cache
+*.tmp
 
-# IDE and Editor
+# IDEs and Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 *.sublime-workspace
 *.sublime-project
-
-# OS-specific
-.DS_Store
-Thumbs.db
-ehthumbs.db
-Icon?
-Desktop.ini
-
-# Log files
-*.log
-logs/
-*.out
-*.err
-
-# Miscellaneous
-*.tmp
-*.bak
-*.orig
 *.swp
 *.swo
-*.pid
-*.seed
-*.gz
+*.DS_Store
+Thumbs.db
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test Results
+test_results/
+*.result
+*.xml
+*.json
+
+# Miscellaneous
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.class
+*.jar
+*.war
 *.zip
 *.tar
+*.gz
 *.tgz
 *.7z
 *.rar
 *.mp3
 *.jpg
 *.svg
-*.html
-*.css
-*.json
-*.jsx
 *.md
 *.txt
 *.yml
-test_results/
+*.json
+*.jsx
+*.css
+*.html
