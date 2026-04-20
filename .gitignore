@@ -2,50 +2,40 @@
 node_modules/
 npm-debug.log
 yarn-error.log
-package-lock.json
-yarn.lock
 
 # Python
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.env
 .venv/
 env/
 venv/
 *.egg-info/
 dist/
 build/
-*.whl
 
 # Docker
 *.dockerignore
 Dockerfile
-docker-compose.yml
+docker-compose.override.yml
 
 # Frontend
-/build/
+build/
+dist/
 .cache/
 *.log
-*.css.map
-*.js.map
 
-# Environment files
-.env
-.env.local
-.env.development
-.env.test
-.env.production
-
-# IDE and editor files
+# IDE and Editor
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
 *.swp
 *.swo
+*.sublime-workspace
+*.sublime-project
 
-# OS-specific files
+# OS-specific
 .DS_Store
 Thumbs.db
 ehthumbs.db
@@ -54,7 +44,6 @@ Desktop.ini
 
 # Logs and runtime data
 *.log
-test_results/
 *.tmp
 *.temp
 *.pid
@@ -72,7 +61,6 @@ test_results/
 *.gif
 *.svg
 *.mp3
-*.wav
 *.mp4
 *.avi
 *.mov
@@ -80,6 +68,21 @@ test_results/
 *.zip
 *.tar
 *.gz
-*.bz2
 *.7z
 *.rar
+*.bak
+*.orig
+*.class
+*.jar
+*.war
+*.dll
+*.exe
+*.o
+*.so
+*.a
+*.dSYM/
+*.class
+*.idb
+*.pdb
+*.sublime-workspace
+*.sublime-project
